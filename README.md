@@ -1,6 +1,6 @@
 # ObjectSkeleton
 
-A small code that helps you see the skeleton of Python objects when debugging/inspecting Deep Learning codes
+A small code that helps you see the skeleton of Python objects when debugging/inspecting Deep Learning codes (**only supports simple objects like torch.Tensor, list, tuple, dict**)
 
 ## :question: Introduction
 
@@ -50,4 +50,4 @@ print(ObjectSkeleton(x, detailed_info=True))
 
 <img src="OutputDetailed.png">
 
-If you want to try adding new stuffs such as Tensor data values or track the object's memory usage, you can modify the ObjectSkeleton class as you wish.
+If you want to try adding new stuffs such as user-defined objects, Tensor data values or track the object's memory usage, you can modify the ObjectSkeleton class as you wish.
